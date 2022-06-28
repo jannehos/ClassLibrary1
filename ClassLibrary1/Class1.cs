@@ -28,6 +28,31 @@ namespace ClassLibrary1
 
     }
 
+
+    public bool IsLate(DateTime StartDate, DateTime FinishDate, int EstimatedTimeToMaster)
+
+      {
+            TimeSpan studyTime = FinishDate - StartDate;
+            int spentTime = studyTime.Days;
+
+            if (spentTime > EstimatedTimeToMaster)
+            {
+                return true;
+            }
+
+            else if (spentTime < EstimatedTimeToMaster)
+            {
+                return false;
+            }
+
+            else if (spentTime == EstimatedTimeToMaster)
+            {
+                return false;
+            }
+
+            return false;
+        }
+
 }
 
 
