@@ -13,11 +13,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Maria T\\source\\repos\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
       "projectName": "ClassLibrary1",
       "projectPath": "C:\\Users\\Maria T\\source\\repos\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
       "packagesPath": "C:\\Users\\Maria T\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Maria T\\source\\repos\\ClassLibrary1\\ClassLibrary1\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Maria T\\Source\\Repos\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
+      "projectName": "ClassLibrary1",
+      "projectPath": "C:\\Users\\Maria T\\Source\\Repos\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
+      "packagesPath": "C:\\Users\\Maria T\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maria T\\Source\\Repos\\ClassLibrary1\\ClassLibrary1\\obj\\",
+>>>>>>> maria
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Maria T\\AppData\\Roaming\\NuGet\\NuGet.Config",
